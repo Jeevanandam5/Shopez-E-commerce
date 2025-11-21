@@ -62,8 +62,8 @@ const Navbar = () => {
           <nav className="hidden md:flex md:space-x-8 md:items-center">
             <Link to="/" className="text-sm uppercase tracking-wider text-gray-700 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900">Home</Link>
             <Link to="/product" className="text-sm uppercase tracking-wider text-gray-700 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900">Collection</Link>
-            <Link to="/about" className="text-sm uppercase tracking-wider text-gray-700 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900">About</Link>
-            <Link to="/contact" className="text-sm uppercase tracking-wider text-gray-700 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900">Contact</Link>
+            <Link to="/" className="text-sm uppercase tracking-wider text-gray-700 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900">About</Link>
+            <Link to="/" className="text-sm uppercase tracking-wider text-gray-700 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-900">Contact</Link>
           </nav>
 
           {/* RIGHT: search + icons */}

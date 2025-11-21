@@ -20,6 +20,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Products from './components/Products';
 import CompleteOrder from './pages/customer/CompleteOrder';
+import Footer from './components/Footer';
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -59,6 +60,7 @@ function App() {
         <Route path='/new-product' element={<NewProduct />} />
         <Route path='/update-product/:id' element={<UpdateProduct />} />
       </Routes>
+    <Footer/>
     </div>
   </GeneralContextProvider>
   );
